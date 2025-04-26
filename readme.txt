@@ -38,6 +38,41 @@ ID order:
 after 31 it skips to 50, 51, 52, 53 for the special booths
 
 json
+  {
+    "id": 100,
+    "avm": [],
+    "island": "Avatar Bases",
+    "name": "[Cinners] Avatars",
+    "backwall": "mp4",
+    "category": [ "Other", "Merchandise Creation" ],
+    "avatars": []
+  },
+  {
+    "id": 101,
+    "avm": [ "prod_00000000-0000-0000-0000-000000000000", "prod_00000000-0000-0000-0000-000000000000" ],
+    "island": "Avatar Bases",
+    "name": "ArcticAsper",
+    "backwall": "png",
+    "category": [ "Other", "Merchandise Creation" ],
+    "avatars": [
+      "avtr_74494c73-beaa-4815-80f4-f0761bd08fd9",
+      "avtr_777f3fd3-3b9c-47fd-810b-53d643591fe3",
+      "avtr_7a788c7d-dc79-4318-87e9-df5990ef16a5"
+    ]
+  },
+  {
+    "id": 102,
+    "avm": [ "prod_00000000-0000-0000-0000-000000000000" ],
+    "island": "Avatar Bases",
+    "name": "Natch Deux avatars",
+    "backwall": "png",
+    "category": [ "Other", "Merchandise Creation" ],
+    "avatars": [
+      "avtr_0acdfa6b-e719-4f53-8dec-73327cb96c02",
+      "avtr_0fd9b92a-854c-4292-aeb2-a6cd8be282d1",
+      "avtr_ad9e9b09-43a0-4032-b985-4ee834e08d3a"
+    ]
+  },
 
 "videoUrl": either mp4 or png for the back wall
 "imageUrl": png for the rest of the booth
@@ -45,10 +80,7 @@ json
 "avm": secret data?
 "island": island name, valid names: "Avatar Bases", "Avatar Assets", "Avatar Services", "2D Illustration", "Other"
 "name": name
-"imageUrl": url to the main booth image
-"videoUrl": url to the back wall image or video
 "category": list of categories. valid categories: "Anthro Character Art", "Avatar Assets", "Avatar Bases", "3D Modeling", "3D Rendered Art", "Avatar Modeling", "Avatar Retextures", "Comics/Books", "Digital Art", "Fursuits", "Merchandise", "Merchandise Creation",, "Musician", "Traditional Art", "Twitch Production", "Video Production", "World Creation", "Other"
-"webUrl": link to furality thing
 "avatars": list of avatar IDs
-
+"backwall": format of the backwall (png or mp4)
 
