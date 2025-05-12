@@ -49,7 +49,7 @@ json
   },
   {
     "id": 101,
-    "avm": [ "prod_00000000-0000-0000-0000-000000000000", "prod_00000000-0000-0000-0000-000000000000" ],
+    "avm": [ "prod_00000000-0000-0000-0000-000000000000", "prod_00000000-0000-0000-0000-000000000000","null" ],
     "island": "Avatar Bases",
     "name": "ArcticAsper",
     "backwall": "png",
@@ -61,14 +61,30 @@ json
     ]
   },
   {
-    "id": 102,
-    "avm": [ "prod_00000000-0000-0000-0000-000000000000" ],
+    "id": 101,
+    "avm": [ "null","null" ],
+    "island": "Avatar Bases",
+    "name": "ArcticAsper",
+    "backwall": "png",
+    "category": [ "Other", "Merchandise Creation" ],
+    "avatars": [
+      "avtr_74494c73-beaa-4815-80f4-f0761bd08fd9",
+      "avtr_777f3fd3-3b9c-47fd-810b-53d643591fe3"      
+    ]
+  },
+  {
+    "id": 103,
+    "avm": [ 
+      "prod_00000000-0000-0000-0000-000000000000",
+      "null",
+      "prod_00000000-0000-0000-0000-000000000001"
+    ],
     "island": "Avatar Bases",
     "name": "Natch Deux avatars",
     "backwall": "png",
     "category": [ "Other", "Merchandise Creation" ],
     "avatars": [
-      "avtr_0acdfa6b-e719-4f53-8dec-73327cb96c02",
+      "null",
       "avtr_0fd9b92a-854c-4292-aeb2-a6cd8be282d1",
       "avtr_ad9e9b09-43a0-4032-b985-4ee834e08d3a"
     ]
@@ -77,10 +93,10 @@ json
 "videoUrl": either mp4 or png for the back wall
 "imageUrl": png for the rest of the booth
 "id": booth ID
-"avm": secret data?
+"avm": secret data?, need to be the same size as avatars, max size 3
 "island": island name, valid names: "Avatar Bases", "Avatar Assets", "Avatar Services", "2D Illustration", "Other"
 "name": name
 "category": list of categories. valid categories: "Anthro Character Art", "Avatar Assets", "Avatar Bases", "3D Modeling", "3D Rendered Art", "Avatar Modeling", "Avatar Retextures", "Comics/Books", "Digital Art", "Fursuits", "Merchandise", "Merchandise Creation",, "Musician", "Traditional Art", "Twitch Production", "Video Production", "World Creation", "Other"
-"avatars": list of avatar IDs
+"avatars": list of avatar IDs, max size 3
 "backwall": format of the backwall (png or mp4)
 
